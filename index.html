@@ -16,6 +16,11 @@
       src="https://kit.fontawesome.com/41a96935d4.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- custom css file link -->
@@ -509,10 +514,249 @@
           </div>
         </div>
       </section>
+
+      <!-- Arrival & Offers -->
+      <section class="py-20">
+        <!-- arrival container -->
+        <div class="max-w-screen-xl mx-auto px-2">
+          <!-- section heading -->
+          <div>
+            <h2
+              class="text-2xl sm:text-3xl lg:text-4xl text-green-500 font-semibold"
+            >
+              Arrival & Offers
+            </h2>
+          </div>
+
+          <!-- arrival card container -->
+          <div class="grid grid-cols-12 gap-4 lg:gap-5 mt-14">
+            <!-- left card -->
+            <div
+              class="h-52 lg:h-64 bg-green-700 rounded-lg col-span-12 md:col-span-6 lg:col-span-7 px-3 md:px-5 relative overflow-hidden"
+            >
+              <!-- left card text -->
+              <div class="flex items-center h-full">
+                <div class="space-y-3 lg:space-y-5">
+                  <div class="w-36 lg:w-56">
+                    <img
+                      src="./c2-assets/dawat-logo.png"
+                      alt="dawat-logo"
+                      class="w-full object-contain"
+                    />
+                  </div>
+                  <button
+                    class="py-2 px-4 lg:py-4 lg:px-10 bg-green-400 rounded-lg text-white text-sm lg:text-xl lg:font-semibold font-medium"
+                  >
+                    Cook Exotic Dishes
+                  </button>
+                  <h3 class="text-white text-lg lg:text-3xl">
+                    UP to <span class="font-bold">20% OFF</span>
+                  </h3>
+                </div>
+              </div>
+              <!-- left card image -->
+              <div
+                class="w-52 h-52 lg:w-64 lg:h-64 absolute -bottom-4 lg:-bottom-6 -right-5"
+              >
+                <img src="./c2-assets/dawat-mock-up.png" alt="" />
+              </div>
+            </div>
+            <!-- right card -->
+            <div
+              class="h-52 lg:h-64 bg-blue-900 rounded-lg col-span-12 md:col-span-6 lg:col-span-5 px-3 md:px-5 relative overflow-hidden"
+            >
+              <!-- right card text -->
+              <div class="flex items-center h-full">
+                <div class="space-y-3 lg:space-y-3">
+                  <div class="w-16">
+                    <img
+                      src="./c2-assets/india-gate-logo.png"
+                      alt="dawat-logo"
+                      class="w-full object-contain"
+                    />
+                  </div>
+                  <button
+                    class="py-2 px-4 lg:py-4 lg:px-6 bg-blue-400 rounded-lg text-white text-sm lg:text-xl lg:font-semibold font-medium"
+                  >
+                    World’s No.1 Rice
+                  </button>
+                  <h3 class="text-white text-lg lg:text-3xl">
+                    UP to <span class="font-bold">40% OFF</span>
+                  </h3>
+                </div>
+              </div>
+              <!-- right card image -->
+              <div
+                class="w-32 lg:w-36 h-40 absolute bottom-12 lg:bottom-20 right-4"
+              >
+                <img src="./c2-assets/india-gate-mock-up.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- challenge section/customer feedback slider -->
+      <section class="py-20">
+        <!-- slider section container -->
+        <div class="max-w-screen-xl mx-auto px-2">
+          <!-- section heading -->
+          <div>
+            <h2
+              class="text-2xl sm:text-3xl lg:text-4xl text-green-500 font-semibold"
+            >
+              Client's Feedback
+            </h2>
+          </div>
+          <!-- slider container -->
+          <div class="mt-14 w-full h-fit">
+            <!-- Swiper -->
+            <div class="swiper mySwiper w-full sm:w-11/12 md:w-10/12 h-fit">
+              <div class="swiper-wrapper w-full h-fit">
+                <!-- slide-1 -->
+                <div class="swiper-slide w-full bg-yellow-100 py-10 rounded-xl">
+                  <div
+                    class="w-full flex flex-col justify-center items-center py-5 space-y-5"
+                  >
+                    <!-- image -->
+                    <div
+                      class="w-48 h-48 bg-white rounded-full p-3 overflow-hidden"
+                    >
+                      <img
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl-image"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                    <!-- name & designed -->
+                    <div class="text-center space-y-1">
+                      <h3 class="text-3xl font-semibold text-gray-700">
+                        Layla Carter
+                      </h3>
+                      <p class="text-lg text-gray-700">Graphic Designer</p>
+                    </div>
+                    <!-- dtls-para -->
+                    <p class="text-center text-base text-gray-700">
+                      "Absolutely amazing experience! The service was top-notch,
+                      and the team went above and beyond to meet my
+                      expectations. Everything was delivered on time, and the
+                      quality exceeded what I had hoped for. I would highly
+                      recommend them to anyone looking for professionalism and
+                      excellence. Can't wait to work with them again!"
+                    </p>
+                  </div>
+                </div>
+                <!-- slide-2 -->
+                <div class="swiper-slide w-full bg-yellow-100 py-10 rounded-xl">
+                  <div
+                    class="w-full flex flex-col justify-center items-center py-5 space-y-5"
+                  >
+                    <!-- image -->
+                    <div
+                      class="w-48 h-48 bg-white rounded-full p-3 overflow-hidden"
+                    >
+                      <img
+                        src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="man-image"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                    <!-- name & designed -->
+                    <div class="text-center space-y-1">
+                      <h3 class="text-3xl font-semibold text-gray-700">
+                        Zayn Mitchell
+                      </h3>
+                      <p class="text-lg text-gray-700">Marketing Manager</p>
+                    </div>
+                    <!-- dtls-para -->
+                    <p class="text-center text-base text-gray-700">
+                      "Absolutely amazing experience! The service was top-notch,
+                      and the team went above and beyond to meet my
+                      expectations. Everything was delivered on time, and the
+                      quality exceeded what I had hoped for. I would highly
+                      recommend them to anyone looking for professionalism and
+                      excellence. Can't wait to work with them again!"
+                    </p>
+                  </div>
+                </div>
+                <!-- slide-3 -->
+                <div class="swiper-slide w-full bg-yellow-100 py-10 rounded-xl">
+                  <div
+                    class="w-full flex flex-col justify-center items-center py-5 space-y-5"
+                  >
+                    <!-- image -->
+                    <div
+                      class="w-48 h-48 bg-white rounded-full p-3 overflow-hidden"
+                    >
+                      <img
+                        src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl-image"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                    <!-- name & designed -->
+                    <div class="text-center space-y-1">
+                      <h3 class="text-3xl font-semibold text-gray-700">
+                        Aria Patel
+                      </h3>
+                      <p class="text-lg text-gray-700">Software Engineer</p>
+                    </div>
+                    <!-- dtls-para -->
+                    <p class="text-center text-base text-gray-700">
+                      "Absolutely amazing experience! The service was top-notch,
+                      and the team went above and beyond to meet my
+                      expectations. Everything was delivered on time, and the
+                      quality exceeded what I had hoped for. I would highly
+                      recommend them to anyone looking for professionalism and
+                      excellence. Can't wait to work with them again!"
+                    </p>
+                  </div>
+                </div>
+                <!-- slide-4 -->
+                <div class="swiper-slide w-full bg-yellow-100 py-10 rounded-xl">
+                  <div
+                    class="w-full flex flex-col justify-center items-center py-5 space-y-5"
+                  >
+                    <!-- image -->
+                    <div
+                      class="w-48 h-48 bg-white rounded-full p-3 overflow-hidden"
+                    >
+                      <img
+                        src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="boy-image"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                    <!-- name & designed -->
+                    <div class="text-center space-y-1">
+                      <h3 class="text-3xl font-semibold text-gray-700">
+                        Elias Khan
+                      </h3>
+                      <p class="text-lg text-gray-700">Data Analyst</p>
+                    </div>
+                    <!-- dtls-para -->
+                    <p class="text-center text-base text-gray-700">
+                      "Absolutely amazing experience! The service was top-notch,
+                      and the team went above and beyond to meet my
+                      expectations. Everything was delivered on time, and the
+                      quality exceeded what I had hoped for. I would highly
+                      recommend them to anyone looking for professionalism and
+                      excellence. Can't wait to work with them again!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section -->
     <footer></footer>
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- js codes for slider -->
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
