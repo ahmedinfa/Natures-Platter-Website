@@ -27,7 +27,92 @@
       USED TECHNOLOGIES ARE: HTML, CSS, TAILWINDCSS & SWIPER JS
     ########################## -->
   </head>
-  <body>
+  <body class="sora">
+    <!-- header section -->
+    <header class="w-full bg-gradient-to-b from-gray-100 to bg-yellow-100">
+      <!-- header container -->
+      <div class="max-w-screen-xl mx-auto relative z-10">
+        <!-- navbar -->
+        <nav class="w-full h-20 flex justify-between items-center px-2">
+          <!-- logo -->
+          <div class="w-1/3">
+            <div
+              class="w-20 h-20 lg:w-24 lg:h-24 flex justify-center items-center"
+            >
+              <img
+                src="./c2-assets/logo-header.png"
+                alt="brand logo"
+                class="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+          <!-- list -->
+          <ul class="lg:flex w-1/3 gap-6 justify-center hidden">
+            <li><a href="#" class="text-lg text-gray-800">Products</a></li>
+            <li><a href="#" class="text-lg text-gray-800">Services</a></li>
+            <li><a href="#" class="text-lg text-gray-800">Contact us</a></li>
+          </ul>
+          <!-- btns -->
+          <div class="w-1/3 lg:flex justify-end items-center gap-3 hidden">
+            <div class="space-x-2">
+              <i class="text-lg fa-solid fa-magnifying-glass"></i>
+              <i class="text-lg fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="space-x-2">
+              <button
+                class="px-8 py-2 outline-1 rounded-lg text-lg font-semibold outline-green-600 transition-all duration-300 hover:bg-green-600 hover:text-white"
+              >
+                Login
+              </button>
+
+              <button
+                class="px-8 py-2 rounded-lg text-lg font-semibold bg-green-600 text-white"
+              >
+                Register
+              </button>
+            </div>
+          </div>
+          <!-- hamburger -->
+          <div class="lg:hidden">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </div>
+        </nav>
+        <!-- banner section -->
+        <section class="px-2 pt-10 relative overflow-hidden">
+          <!-- banner text -->
+          <div class="w-full sm:w-11/12 md:w-11/12 mx-auto">
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl text-center font-semibold"
+            >
+              Freshness
+              <span class="text-green-500"
+                >You Can <br />
+                Count</span
+              >
+              On, Prices You’ll Love!
+            </h1>
+            <p
+              class="text-center mt-5 text-base md:text-lg text-gray-500 w-full sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto"
+            >
+              Shop your daily essentials at unbeatable prices. From fresh
+              produce to pantry staples, we’ve got you covered every day!
+            </p>
+          </div>
+          <!-- banner image -->
+          <div class="flex justify-center items-center sm:h-[500px] mt-8">
+            <img
+              src="./c2-assets/hero-vegetables.png"
+              alt="banner-image"
+              class="w-full h-full object-contain"
+            />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- main section -->
+    <main></main>
+    <!-- footer section -->
+    <footer></footer>
     <!-- js codes for slider -->
     <script src="script.js"></script>
   </body>

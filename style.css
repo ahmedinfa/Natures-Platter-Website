@@ -1,0 +1,23 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+.sora {
+  font-family: "Sora", serif;
+}
+
+/* banner animation */
+.hero-anim {
+  border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
+  animation: hero-anim 4s linear infinite alternate;
+}
+
+@keyframes hero-anim {
+  0%,
+  100% {
+    border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
+  }
+
+  50% {
+    border-radius: 65% 35% 19% 81% / 35% 63% 37% 65%;
+  }
+}
