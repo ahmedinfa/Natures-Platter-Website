@@ -7,17 +7,15 @@
 
 /* banner animation */
 .hero-anim {
-  border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
-  animation: hero-anim 4s linear infinite alternate;
+  animation: hero-anim 10s linear infinite;
 }
 
 @keyframes hero-anim {
-  0%,
-  100% {
-    border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
+  0% {
+    transform: rotate(0);
   }
 
-  50% {
-    border-radius: 65% 35% 19% 81% / 35% 63% 37% 65%;
+  100% {
+    transform: rotate(360deg);
   }
 }
